@@ -73,22 +73,22 @@
       <dmn:requiredInput href="#_F388F9DF-17E4-464A-BB3E-B24DF92F7690"/>
     </dmn:informationRequirement>
     <dmn:decisionTable id="_E3D5C08E-5894-4BED-BFA1-59C6C8AF73E2" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
-      <dmn:input id="_746BB67A-ACFC-4D49-8836-550EB0BCAE6C">
-        <dmn:inputExpression id="_E57603DB-3729-4913-81C9-6A06220882EB" typeRef="number">
-          <dmn:text>Violation.Actual Speed</dmn:text>
-        </dmn:inputExpression>
-      </dmn:input>
       <dmn:input id="_BB28517D-7E32-4723-A2AC-93BD614BDB08">
         <dmn:inputExpression id="_D3E03A02-906B-4948-85A9-CFA140B5CBAE" typeRef="string">
           <dmn:text>Violation.Type</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
+      <dmn:input id="_746BB67A-ACFC-4D49-8836-550EB0BCAE6C">
+        <dmn:inputExpression id="_E57603DB-3729-4913-81C9-6A06220882EB" typeRef="number">
+          <dmn:text>Violation.Actual Speed</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
       <dmn:output id="_97926858-DF67-45FF-9F59-598236290C3E" typeRef="tFine"/>
       <dmn:rule id="_38876515-A5B6-44F4-9D29-6DFA49FDCEEB">
-        <dmn:inputEntry id="_D5971491-2726-4D6E-9AD7-9F08CA9C8A3A">
+        <dmn:inputEntry id="_1019AA6F-9280-435E-8277-8D8A3EC2FC99">
           <dmn:text>-</dmn:text>
         </dmn:inputEntry>
-        <dmn:inputEntry id="_1019AA6F-9280-435E-8277-8D8A3EC2FC99">
+        <dmn:inputEntry id="_D5971491-2726-4D6E-9AD7-9F08CA9C8A3A">
           <dmn:text>-</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_4A85D0F0-F502-4583-A2BD-A60EE7AABECF">
