@@ -78,21 +78,6 @@
           <dmn:text>Violation.Actual Speed</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
-      <dmn:input id="_3C9E09E0-35A7-4174-BDD0-AD5FDC9973AD">
-        <dmn:inputExpression id="_1454F49B-13D8-4DF1-A25A-C557ADCF81C4" typeRef="string">
-          <dmn:text>Violation.Code</dmn:text>
-        </dmn:inputExpression>
-      </dmn:input>
-      <dmn:input id="_F615CB07-7898-414D-823B-F0016D3D40F6">
-        <dmn:inputExpression id="_78F9157A-F2DA-4EFD-8F14-894F8960AC6B" typeRef="date">
-          <dmn:text>Violation.Date</dmn:text>
-        </dmn:inputExpression>
-      </dmn:input>
-      <dmn:input id="_BDF246B6-99A7-4DDC-9FCE-3A907424FD1C">
-        <dmn:inputExpression id="_3EE7D5AC-3907-4336-8239-35888B5699CC" typeRef="number">
-          <dmn:text>Violation.Speed Limit</dmn:text>
-        </dmn:inputExpression>
-      </dmn:input>
       <dmn:input id="_BB28517D-7E32-4723-A2AC-93BD614BDB08">
         <dmn:inputExpression id="_D3E03A02-906B-4948-85A9-CFA140B5CBAE" typeRef="string">
           <dmn:text>Violation.Type</dmn:text>
@@ -101,15 +86,6 @@
       <dmn:output id="_97926858-DF67-45FF-9F59-598236290C3E" typeRef="tFine"/>
       <dmn:rule id="_38876515-A5B6-44F4-9D29-6DFA49FDCEEB">
         <dmn:inputEntry id="_D5971491-2726-4D6E-9AD7-9F08CA9C8A3A">
-          <dmn:text>-</dmn:text>
-        </dmn:inputEntry>
-        <dmn:inputEntry id="_7D61C88C-4C71-4B45-B223-B1C3D6F4B036">
-          <dmn:text>-</dmn:text>
-        </dmn:inputEntry>
-        <dmn:inputEntry id="_2051D58B-CC70-408F-9674-EA63831C77B4">
-          <dmn:text>-</dmn:text>
-        </dmn:inputEntry>
-        <dmn:inputEntry id="_B2C255FF-D878-4358-81C0-CA43FD3F89BB">
           <dmn:text>-</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_1019AA6F-9280-435E-8277-8D8A3EC2FC99">
@@ -140,9 +116,6 @@
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_E3D5C08E-5894-4BED-BFA1-59C6C8AF73E2">
             <kie:width>50.0</kie:width>
-            <kie:width>100.0</kie:width>
-            <kie:width>100.0</kie:width>
-            <kie:width>100.0</kie:width>
             <kie:width>100.0</kie:width>
             <kie:width>100.0</kie:width>
             <kie:width>100.0</kie:width>
