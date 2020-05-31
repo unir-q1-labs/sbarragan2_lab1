@@ -214,11 +214,11 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="376" y="235" width="100" height="50"/>
+        <dc:Bounds x="375.5981308411215" y="224" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNEdge id="dmnedge-_4F497126-6C5D-412E-A506-4B7E633F0530" dmnElementRef="_4F497126-6C5D-412E-A506-4B7E633F0530">
-        <di:waypoint x="426" y="235"/>
+        <di:waypoint x="425.5981308411215" y="224"/>
         <di:waypoint x="564" y="85"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_E17BF565-215E-47D7-997A-AFC4D39D1757" dmnElementRef="_E17BF565-215E-47D7-997A-AFC4D39D1757">
