@@ -48,7 +48,9 @@
   </dmn:itemDefinition>
   <dmn:decision id="_C0E1E809-4811-413A-A92D-0F2790B9EFB1" name="Should the driver be suspended?">
     <dmn:extensionElements/>
-    <dmn:variable id="_28C7D720-D789-41B3-9291-5A9E3931D85A" name="Should the driver be suspended?"/>
+    <dmn:question>Should the driver be suspended due to points on his driver license?</dmn:question>
+    <dmn:allowedAnswers>Yes,No</dmn:allowedAnswers>
+    <dmn:variable id="_28C7D720-D789-41B3-9291-5A9E3931D85A" name="Should the driver be suspended?" typeRef="string"/>
     <dmn:informationRequirement id="_4F497126-6C5D-412E-A506-4B7E633F0530">
       <dmn:requiredInput href="#_D7181FEE-9469-4386-A555-F40C11B510D4"/>
     </dmn:informationRequirement>
@@ -69,7 +71,7 @@
   </dmn:inputData>
   <dmn:inputData id="_F388F9DF-17E4-464A-BB3E-B24DF92F7690" name="Violation">
     <dmn:extensionElements/>
-    <dmn:variable id="_D20B3BD0-DB20-49D0-B1DD-03206649B1DC" name="Violation"/>
+    <dmn:variable id="_D20B3BD0-DB20-49D0-B1DD-03206649B1DC" name="Violation" typeRef="tViolation"/>
   </dmn:inputData>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram>
