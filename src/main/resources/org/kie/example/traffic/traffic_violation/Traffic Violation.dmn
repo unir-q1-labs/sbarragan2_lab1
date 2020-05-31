@@ -87,16 +87,58 @@
       <dmn:output id="_97926858-DF67-45FF-9F59-598236290C3E" name="Points " typeRef="number"/>
       <dmn:rule id="_38876515-A5B6-44F4-9D29-6DFA49FDCEEB">
         <dmn:inputEntry id="_1019AA6F-9280-435E-8277-8D8A3EC2FC99">
-          <dmn:text>-</dmn:text>
+          <dmn:text>"speed"</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_D5971491-2726-4D6E-9AD7-9F08CA9C8A3A">
-          <dmn:text>-</dmn:text>
+          <dmn:text>[10..30)</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_73213D26-D688-4129-81B6-B7A3EAD9324F">
-          <dmn:text></dmn:text>
+          <dmn:text>500</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_4A85D0F0-F502-4583-A2BD-A60EE7AABECF">
-          <dmn:text></dmn:text>
+          <dmn:text>3</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+      <dmn:rule id="_FAE8672A-F298-4FA0-8346-6753EF73B923">
+        <dmn:inputEntry id="_15C671A4-85D1-44DE-8498-754C8084A075">
+          <dmn:text>"speed"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_47D4B089-F780-4D4D-BC86-7DA9619BC686">
+          <dmn:text>&gt;= 30</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_1885EB5B-B97A-4F8F-8114-E5C6BC6B3423">
+          <dmn:text>1000</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_E6660B43-EA9D-460C-8988-342F8094EC60">
+          <dmn:text>1</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+      <dmn:rule id="_07FEA41B-4A3C-465C-9ECD-A4D994B2B951">
+        <dmn:inputEntry id="_853B55C3-A5A8-4B5D-8A2D-2699B541B3F5">
+          <dmn:text>"parking"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_2E53181E-E42A-4952-B891-95607259D5B1">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_DA6A8DB9-C1CE-4C36-B49C-7F3E6E2B4B2B">
+          <dmn:text>100</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_339D16CE-A3C0-43C3-8D27-C8BC136319A9">
+          <dmn:text>1</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+      <dmn:rule id="_380D599F-B622-4FE9-AE3E-14D9161BAB22">
+        <dmn:inputEntry id="_77988153-ADFE-4214-A14E-16AA3E55D682">
+          <dmn:text>"driving under the influence"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_97DF31EE-6864-4602-85FA-C1014465A125">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_18EAA788-1BE0-4355-A6F5-858935FDCDA6">
+          <dmn:text>1000</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_AB3859F0-46F3-41D0-AFC3-59C1A6B26FAE">
+          <dmn:text>5</dmn:text>
         </dmn:outputEntry>
       </dmn:rule>
     </dmn:decisionTable>
