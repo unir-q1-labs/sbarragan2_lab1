@@ -59,9 +59,9 @@
     </dmn:informationRequirement>
     <dmn:context id="_92D77B31-E71A-4586-8A30-6EE35E481986">
       <dmn:contextEntry>
-        <dmn:variable id="_70410C17-92F0-455C-A87F-A34173422229" name="ContextEntry-1"/>
-        <dmn:literalExpression>
-          <dmn:text>null // auto-filled by the editor to avoid missing empty expression.</dmn:text>
+        <dmn:variable id="_70410C17-92F0-455C-A87F-A34173422229" name="Total Points" typeRef="number"/>
+        <dmn:literalExpression id="_539A5917-A866-4652-8329-CD8303ADB978">
+          <dmn:text></dmn:text>
         </dmn:literalExpression>
       </dmn:contextEntry>
     </dmn:context>
@@ -158,7 +158,10 @@
           <kie:ComponentWidths dmnElementRef="_92D77B31-E71A-4586-8A30-6EE35E481986">
             <kie:width>50.0</kie:width>
             <kie:width>100.0</kie:width>
-            <kie:width>150.0</kie:width>
+            <kie:width>300.0</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_539A5917-A866-4652-8329-CD8303ADB978">
+            <kie:width>300.0</kie:width>
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_E3D5C08E-5894-4BED-BFA1-59C6C8AF73E2">
             <kie:width>50.0</kie:width>
