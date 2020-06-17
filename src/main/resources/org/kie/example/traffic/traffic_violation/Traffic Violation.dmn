@@ -71,6 +71,10 @@
       </dmn:contextEntry>
     </dmn:context>
   </dmn:decision>
+  <dmn:inputData id="_D7181FEE-9469-4386-A555-F40C11B510D4" name="Driver">
+    <dmn:extensionElements/>
+    <dmn:variable id="_FDA65551-8D47-445C-B0B9-7DE4E8A5EB5A" name="Driver" typeRef="tDriver"/>
+  </dmn:inputData>
   <dmn:decision id="_7A02F8F0-4A63-46DF-87C4-B712B0D77F85" name="Fine">
     <dmn:extensionElements/>
     <dmn:variable id="_FD8C7B59-DC10-4684-A28C-C1117EB1B294" name="Fine" typeRef="tFine"/>
@@ -123,7 +127,7 @@
           <dmn:text>"parking"</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_2E53181E-E42A-4952-B891-95607259D5B1">
-          <dmn:text>-</dmn:text>
+          <dmn:text></dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_DA6A8DB9-C1CE-4C36-B49C-7F3E6E2B4B2B">
           <dmn:text>100</dmn:text>
@@ -137,7 +141,7 @@
           <dmn:text>"driving under the influence"</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_97DF31EE-6864-4602-85FA-C1014465A125">
-          <dmn:text>-</dmn:text>
+          <dmn:text></dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_18EAA788-1BE0-4355-A6F5-858935FDCDA6">
           <dmn:text>1000</dmn:text>
@@ -148,10 +152,6 @@
       </dmn:rule>
     </dmn:decisionTable>
   </dmn:decision>
-  <dmn:inputData id="_D7181FEE-9469-4386-A555-F40C11B510D4" name="Driver">
-    <dmn:extensionElements/>
-    <dmn:variable id="_FDA65551-8D47-445C-B0B9-7DE4E8A5EB5A" name="Driver" typeRef="tDriver"/>
-  </dmn:inputData>
   <dmn:inputData id="_F388F9DF-17E4-464A-BB3E-B24DF92F7690" name="Violation">
     <dmn:extensionElements/>
     <dmn:variable id="_D20B3BD0-DB20-49D0-B1DD-03206649B1DC" name="Violation" typeRef="tViolation"/>
@@ -163,13 +163,13 @@
           <kie:ComponentWidths dmnElementRef="_92D77B31-E71A-4586-8A30-6EE35E481986">
             <kie:width>50.0</kie:width>
             <kie:width>100.0</kie:width>
-            <kie:width>300.0</kie:width>
+            <kie:width>479.0</kie:width>
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_FB4B37DC-73D8-4F82-8502-BC44E3CBF1BB">
-            <kie:width>300.0</kie:width>
+            <kie:width>479.0</kie:width>
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_F08E422F-A233-4400-90BA-3B4BA25B89D6">
-            <kie:width>300.0</kie:width>
+            <kie:width>479.0</kie:width>
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_E3D5C08E-5894-4BED-BFA1-59C6C8AF73E2">
             <kie:width>50.0</kie:width>
@@ -190,15 +190,6 @@
         <dc:Bounds x="514" y="35" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
-      <dmndi:DMNShape id="dmnshape-_7A02F8F0-4A63-46DF-87C4-B712B0D77F85" dmnElementRef="_7A02F8F0-4A63-46DF-87C4-B712B0D77F85" isCollapsed="false">
-        <dmndi:DMNStyle>
-          <dmndi:FillColor red="255" green="255" blue="255"/>
-          <dmndi:StrokeColor red="0" green="0" blue="0"/>
-          <dmndi:FontColor red="0" green="0" blue="0"/>
-        </dmndi:DMNStyle>
-        <dc:Bounds x="651" y="172" width="100" height="50"/>
-        <dmndi:DMNLabel/>
-      </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_D7181FEE-9469-4386-A555-F40C11B510D4" dmnElementRef="_D7181FEE-9469-4386-A555-F40C11B510D4" isCollapsed="false">
         <dmndi:DMNStyle>
           <dmndi:FillColor red="255" green="255" blue="255"/>
@@ -206,6 +197,15 @@
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
         <dc:Bounds x="281.5981308411215" y="171" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-_7A02F8F0-4A63-46DF-87C4-B712B0D77F85" dmnElementRef="_7A02F8F0-4A63-46DF-87C4-B712B0D77F85" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="651" y="172" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_F388F9DF-17E4-464A-BB3E-B24DF92F7690" dmnElementRef="_F388F9DF-17E4-464A-BB3E-B24DF92F7690" isCollapsed="false">
